@@ -1,11 +1,6 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+// .App {
+//   text-align: center;
+// }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +30,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h5 {
+  padding: 10px;
+}
+
+.box {
+  height: 200px;
+}
+
+.row > div{
+  padding: 10px;
+  background: #ddd;
+  border: 1px solid #fff;
+}
+.row{
+  margin: 40px auto;
+}
+
+.col > div{
+  background: lightblue;
+  height: 120px;
 }
