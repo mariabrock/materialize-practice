@@ -1,5 +1,4 @@
 import React from 'react';
-import $ from 'jquery';
 import M from "materialize-css/dist/js/materialize.min.js";
 import './Navbar.scss';
 
@@ -33,14 +32,7 @@ class Navbar extends React.Component  {
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
-        <script>
-        setTimeout(function (){
-        $('.button-collapse').sideNav('show')},1000)
-        </script>
-        <script>
-          $(document).ready(function(){
-          $('.sidenav').sidenav()});
-        </script>
+        
       </div>    
     );
   };
